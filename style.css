@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:grey;
+    text-align: center;
+
+}
+
+.container{
+    height:70vh; /* viewport means jitni screen visible hai uska 70% given to the container */
+    /* To align the complete game to the center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vmin;
+
+}
+
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    /* Game vala box k center main aa gye hain  */
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vmin;
+
+}
+
+.box{
+    height: 18vmin; /*  width ka 18% per box*/ 
+    width: 18vmin;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 1px 10px 1px rgba(0,0,0,0.6);
+    justify-content: center;
+    font-size: 5vmin;
+    color:darkslategrey;
+    background-color:rgb(209, 190, 169) ;
+    
+}
+
+.reset{
+    /* root element se compare karte hain */
+    padding:1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border:none;
+    background-color: darkslategrey;
+    color:whitesmoke;
+}
+
+
+#new-btn{
+    padding:1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border:none;
+    background-color: darkslategrey;
+    color:whitesmoke;
+}
+
+#msg{
+    color:rgb(27, 27, 27);
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+.hide{
+    display: none;
+}
+
+h2{
+    margin-top:14px;
+}
