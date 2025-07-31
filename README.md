@@ -1,5 +1,9 @@
 # Tic-Tac-Toe
 
+
+<img width="837" height="826" alt="image" src="https://github.com/user-attachments/assets/ce7de3a7-d143-455f-8929-4d4685176e6c" />
+
+
 This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. It is designed for two players, `X` and `O`, to play alternately on a 3x3 grid. The first player to match three of their symbols in a row, column, or diagonal wins the game. If all the boxes are filled without a winner, the game ends in a draw.
 
 ## Features
